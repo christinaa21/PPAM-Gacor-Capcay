@@ -3,6 +3,7 @@
     "name": "Toboki",
     "slug": "Toboki",
     "version": "1.0.0",
+    "scheme": "toboki",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -31,6 +32,9 @@
       "eas": {
         "projectId": "d120c299-76bc-4534-94b5-9266847802a8"
       }
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
